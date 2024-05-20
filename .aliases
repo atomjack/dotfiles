@@ -1,0 +1,4 @@
+alias fixacf='sudo find . -name acf-json -exec chmod -R 775 {} \; -exec chown -R chris:www-data {} \;'
+alias gitprune='git branch --merged | grep -Ev "(^\*|master|main)" | xargs git branch -d'
+alias gitsw='~/bin/gitsw.zsh'
+alias ls='ls --color'
